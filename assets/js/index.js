@@ -13,6 +13,7 @@ function loadPages(page) {
 	document.getElementById(currentPage).style.display = "none";
 	currentPage = page.id + "div";
 	document.getElementById(currentPage).style.display = "block";
+	closeMenu();
 }
 
 function openMenu() {
