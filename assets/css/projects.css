@@ -10,6 +10,7 @@
 	margin-bottom: 40px;
 }
 
+
 .projects h2 {
 	color: var(--dark);
 }
@@ -33,6 +34,13 @@
 }
 .orange {
 	border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+@media (max-width: 600px) {
+
+	.projects {
+		list-style-type: none;
+	}
 }
 
 @media (max-width: 950px) and (min-width: 450px) {

@@ -4,30 +4,31 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" /> -->
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 	<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<title>My Page</title>
 	<link rel="stylesheet" href="assets/css/education.css">
 	<link rel="stylesheet" href="assets/css/index.css" />
 	<link rel="stylesheet" href="assets/css/projects.css" />
-
+	<link rel="stylesheet" href="assets/css/work.css" />
 </head>
 
 <body>
 	<div id="page-wraper">
+
 		<div onclick="openMenu()">
 			<i class="fa fa-bars" id="menu-toggle"></i>
 		</div>
-
 		<div class="responsive-nav">
+
 			<div id="menu" class="menu">
 				<div onclick="closeMenu()">
 					<i class="fa fa-times" id="menu-close"></i>
 				</div>
 				<div class="container">
 					<div class="image">
-						<a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+						<a><img src="assets/images/profile.jpeg" alt="profile-img" /></a>
 					</div>
 					<div class="author-content">
 						<h4>Yaswanth</h4>
@@ -96,7 +97,7 @@
 						</tr>
 						<tr>
 							<td>
-								<p>I<span>'</span>m </p>
+								<p>I<span>'</span>m</p>
 							</td>
 							<td>
 								<p><u>Yaswanth</u></p>
@@ -109,10 +110,14 @@
 						</tr>
 					</table>
 				</div>
+				<div class="about-hire">
+					<p>Want to hire me? <a href="#"><u>Download CV</u></a></p>
+
+				</div>
 			</div>
 		</section>
 
-		<section class="section" id="educationdiv">
+		<section class="section edusection" id="educationdiv">
 			<div class="container">
 				<div class="section-heading">
 					<h2>Education</h2>
@@ -123,7 +128,7 @@
 			<div class="timeline">
 				<div class="educontainer left">
 					<div class="education-details">
-						<h2>M.Tech CS</h2>
+						<h2>M.Tech CSE</h2>
 						<p>2021-2023</p>
 						<p>I'm currently pursuing my Master's degree in Computer Science and Engineering at <a
 								href="https://www.iiit.ac.in/" target="_blank">IIIT Hyderabad</a>, which is one of
@@ -145,14 +150,15 @@
 					<div class="education-details">
 						<h2>Intermediate</h2>
 						<p>2015-2017</p>
-						<p>I completed my 12th class from Sri Chaitanya Junior College, Guntur, Andhra Pradesh securing 98.9%.</p>
+						<p>I completed my 12th class from Sri Chaitanya Junior College, Guntur, Andhra Pradesh securing
+							98.9%.</p>
 					</div>
 				</div>
 			</div>
 
 		</section>
 
-		<section class="section" id="projectsdiv">
+		<section class="section projsection" id="projectsdiv">
 			<div class="container">
 				<div class="section-heading">
 					<h2>Projects</h2>
@@ -219,10 +225,31 @@
 				<div class="section-heading">
 					<h2>Work Experience</h2>
 					<div class="line-dec"></div>
-					<span>Hello, I'm Yaswanth Haridasu, pursuing my Master's
-						degree at IIIT Hyderabad.
-					</span>
 				</div>
+			</div>
+			<div class="work-container">
+				<h4>Developer Intern</h4>
+				<a href="https://mycollegekonnect.com/" target="_blank">MyCollegeKonnect</a>
+				<p>January 2020 - September 2020</p>
+				<ul>
+					<li>
+						During 9 months as intern, I developed a Hybrid Mobile Application
+						MentorKonnect, a platform which connects
+						students with the Alumni of their college.
+					</li>
+					<li>
+						I was responsible for developing Events, Group events
+						modules and Admin related functionality in the mobile application using
+						React native and Google's Firebase tools.
+					</li>
+					<li>
+						At the end of the internship, we deployed the application to the Google Play Store
+						and Apple App Store and I was also one of the mentors for my juniors in the college.
+					</li>
+					<li>The technologies I worked on are: React Native, Firebase Realtime
+						Database, Firebase Cloud functions.
+					</li>
+				</ul>
 			</div>
 		</section>
 	</div>

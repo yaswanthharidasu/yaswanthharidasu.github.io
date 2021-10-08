@@ -4,13 +4,17 @@
 	/* --main: #f44647; */
 	--background: #d4ecdd;
 	--dark: #112031;
+	--red: #e02401;
 }
 
 body {
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
-	font-family: "Lato", sans-serif;
+	font-weight: 0;
+	font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+		sans-serif;
+	/* font-family: "Lato", sans-serif; */
 }
 
 a,
@@ -223,6 +227,8 @@ img {
 }
 
 .about-name p {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+	letter-spacing: 0.02em;
 	display: flex;
 	/* justify-content: center; */
 	align-items: center;
@@ -231,7 +237,7 @@ img {
 	height: 100%;
 	width: 100%;
 	font-weight: 1000;
-	padding: 0px 0px;
+	padding: 0px 2pt;
 	margin: 0px 0px;
 	text-align: left;
 	color: var(--dark);
@@ -239,8 +245,23 @@ img {
 }
 
 .about-name span {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 	font-size: 100px !important;
-	color: var(--main) !important;
+	color:var(--red) !important;
+	/* color: #00A19D !important; */
+}
+
+.about-hire p {
+	color: var(--main);
+	padding-left: 5pt;
+}
+
+.about-hire a {
+	color: var(--red);
+}
+
+.about-hire a:hover {
+	font-weight: 600;
 }
 
 .section {
@@ -297,13 +318,13 @@ img {
 	color: var(--main);
 } */
 
-.education-details a{
+.education-details a {
 	color: var(--main);
 	/* text-transform: uppercase; */
 	font-weight: 800;
 }
 
-.education-details a:hover{
+.education-details a:hover {
 	color: var(--dark);
 }
 
@@ -386,22 +407,29 @@ img {
 	}
 
 	.about-name p {
-		font-size: 50px !important;
+		font-size: 70px !important;
 	}
 	.about-name span {
 		font-size: 50px !important;
+	}
+
+	.section {
+		left: 20vh;
 	}
 }
 
 @media screen and (max-width: 600px) {
 	.about-name p {
 		display: flex;
-		font-size: 40px !important;
+		font-size: 45px !important;
 		text-align: left;
 		align-items: center;
 	}
 	.about-name span {
 		font-size: 40px !important;
+	}
+	.section {
+		left: 10vh;
 	}
 }
 

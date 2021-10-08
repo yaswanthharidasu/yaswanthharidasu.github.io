@@ -46,7 +46,7 @@
 	height: 25px;
 	right: -17px;
 	background-color: white;
-	border: 4px solid var(--dark);
+	border: 4px solid var(--red);
 	top: 15px;
 	border-radius: 50%;
 	z-index: 1;
@@ -108,6 +108,9 @@
 	padding-top: 0px 0px;
 }
 
+.education-details a:hover{
+	color: var(--red) !important;
+}
 
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

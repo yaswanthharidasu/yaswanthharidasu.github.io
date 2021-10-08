@@ -1,0 +1,33 @@
+.work-container h4{
+    color: var(--main);
+    /* padding: 0px 0px !important; */
+    margin: 10px 0px !important;
+}
+
+.work-container p{
+    color: var(--main);
+    /* padding: 0px 0px !important; */
+    margin: 0px 0px !important;
+}
+
+.work-container span{
+    color: var(--dark);
+    font-weight: 600;
+}
+
+.work-container a{
+    color: var(--main);
+    /* padding: 0px 0px !important; */
+    margin: 0px 0px !important;
+    font-weight: 600;
+}
+
+.work-container a:hover{
+    color: var(--red) !important;
+    font-weight: 900;
+}
+
+.work-container li{
+    color: var(--main);
+    line-height: 30px;
+}
