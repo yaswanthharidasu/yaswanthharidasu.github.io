@@ -410,7 +410,7 @@ img {
 		font-size: 70px !important;
 	}
 	.about-name span {
-		font-size: 50px !important;
+		font-size: 70px !important;
 	}
 
 	.section {
@@ -426,7 +426,10 @@ img {
 		align-items: center;
 	}
 	.about-name span {
-		font-size: 40px !important;
+		font-size: 45px !important;
+	}
+	.about-hire p{
+		font-size: 15px !important;
 	}
 	.section {
 		left: 10vh;
@@ -442,5 +445,9 @@ img {
 	}
 	.about-name span {
 		font-size: 30px !important;
+	}
+
+	.about-hire p{
+		font-size: 15px !important	;
 	}
 }
