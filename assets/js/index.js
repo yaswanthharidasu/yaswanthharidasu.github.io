@@ -1,5 +1,5 @@
-let currentPage = "projectsdiv";
-let divs = ["aboutdiv", "educationdiv", "projectsdiv", "workdiv"];
+let currentPage = "contactdiv";
+let divs = ["aboutdiv", "educationdiv", "projectsdiv", "workdiv", "contactdiv"];
 
 function onStart() {
 	for (let i = 0; i < divs.length; i++) {

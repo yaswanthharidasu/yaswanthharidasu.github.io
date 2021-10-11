@@ -1,0 +1,27 @@
+/* .contact-container ul{
+    list-style-type: none;
+} */
+/* .contact-icon {
+	float: left;
+} */
+
+.contact-container .iconify{
+    width: 25px;
+    height: 25px;
+}
+.contact-container table{
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    color: var(--main);
+}	
+.contact-container td{
+    padding: 5px 10px;
+}
+.contact-container .contact-heading{
+    font-size: 25px;
+}
+.contact-container .contact-matter{
+    color: var(--red);
+}
