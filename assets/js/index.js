@@ -1,4 +1,4 @@
-let currentPage = "aboutdiv";
+let currentPage = "projectsdiv";
 let divs = ["aboutdiv", "educationdiv", "projectsdiv", "workdiv"];
 
 function onStart() {
