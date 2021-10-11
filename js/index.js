@@ -51,7 +51,7 @@ function displayTime() {
 	var currentSecs = ("0" + today.getSeconds()).substr(-2);
 	var time = currentHours + ":" + currentMins + ":" + currentSecs;
 	var dateTime = date + " " + time;
-	console.log(dateTime);
+	// console.log(dateTime);
 	var id = document.getElementById("display-date-time");
 	id.innerHTML = dateTime;
 	refreshTime();
