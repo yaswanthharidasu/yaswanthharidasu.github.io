@@ -247,7 +247,7 @@ img {
 .about-name span {
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 	font-size: 100px !important;
-	color:var(--red) !important;
+	color: var(--red) !important;
 	/* color: #00A19D !important; */
 }
 
@@ -281,7 +281,7 @@ img {
 }
 
 .section-heading h2 {
-	font-size: 32px;
+	font-size: 30px;
 	font-weight: 700;
 	color: var(--main);
 }
@@ -428,7 +428,7 @@ img {
 	.about-name span {
 		font-size: 45px !important;
 	}
-	.about-hire p{
+	.about-hire p {
 		font-size: 15px !important;
 	}
 	.section {
@@ -437,6 +437,11 @@ img {
 }
 
 @media screen and (max-width: 400px) {
+	.section-heading h2 {
+		font-size: 25px;
+		font-weight: 700;
+		color: var(--main);
+	}
 	.about-name p {
 		display: flex;
 		font-size: 30px !important;
@@ -447,7 +452,13 @@ img {
 		font-size: 30px !important;
 	}
 
-	.about-hire p{
+	.about-hire p {
 		font-size: 15px !important	;
+	}
+	.edusection {
+		left: 100px;
+	}
+	.education-details h2{
+		font-size: 22px;
 	}
 }

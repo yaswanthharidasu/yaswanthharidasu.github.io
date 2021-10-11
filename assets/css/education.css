@@ -112,6 +112,10 @@
 	color: var(--red) !important;
 }
 
+img {
+	cursor: pointer;
+}
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 840px) {
